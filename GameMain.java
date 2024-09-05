@@ -1,3 +1,4 @@
+package BIT504_TicTacToe;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -5,6 +6,7 @@ import javax.swing.*;
 
 
 public class GameMain extends JPanel implements MouseListener{
+	private static final long serialVersionUID = 1L;
 	//Constants for game 
 	// number of ROWS by COLS cell constants 
 	public static final int ROWS = 3;     
@@ -80,12 +82,12 @@ public class GameMain extends JPanel implements MouseListener{
 				
 				//TODO: create the new GameMain panel and add it to the frame
 				GameMain panel = new GameMain();
-			 	frame.add([panel); //A GameMain panel is created and added to the JFrame to display the game
+			 	frame.add(panel); //A GameMain panel is created and added to the JFrame to display the game
 				
 				
 				//TODO: set the default close operation of the frame to exit_on_close
 			 
-		        frame.setDefaultCloseOperation)JFrame.EXIT_ON_CLOSE); //The frame’s close operation is set to EXIT_ON_CLOSE, so the application exits when the window is closed.
+		        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //The frame’s close operation is set to EXIT_ON_CLOSE, so the application exits when the window is closed.
 				
 				frame.pack();             
 				frame.setLocationRelativeTo(null);
