@@ -1,3 +1,4 @@
+package BIT504_TicTacToe;
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Graphics;
@@ -14,9 +15,9 @@ public class Cell {
 		
 		// TODO: Initialise the variables row, col 
 
-	// The row and col variables are initialized with the values passed to the constructor using this.row = row and this.col = col
+	// The row and col variables are initialised with the values passed to the constructor using this.row = row and this.col = col
 	this.row = row;
-	this.col = col 
+	this.col = col; 
 		
 		
 		//TODO: call the method that sets the cell content to EMPTY
@@ -50,7 +51,7 @@ public class Cell {
 	public void clear() {
 		
 		// TODO: Set the value of content to Empty (Remember this is an enum)
-		content = Player.Empty  //The clear() method sets the content of the cell to Player.Empty, which is a value from the Player enum. 
+		content = Player.Empty;  //The clear() method sets the content of the cell to Player.Empty, which is a value from the Player enum. 
 					//This ensures that the cell starts off as empty.
 		
 	}
