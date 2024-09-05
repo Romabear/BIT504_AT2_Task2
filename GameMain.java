@@ -116,7 +116,7 @@ public class GameMain extends JPanel implements MouseListener{
 				
 				//TODO: use the status bar to display the message "O"'s Turn
 				
-				statusBar.setText("Y'S Turn");
+				statusBar.setText("O'S Turn");
 				
 			}       
 			} else if (currentState == GameState.Draw) {          
